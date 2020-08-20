@@ -1,0 +1,23 @@
+.EditTable {
+  .ant-table-content {
+    background: rgba(245, 246, 248, 0);
+    box-shadow: 0px -1px 0px 0px rgba(218, 220, 224, 1),
+      -1px 0px 0px 0px rgba(218, 220, 224, 1);
+  }
+  &-page-table {
+    display: flex;
+    justify-content: center;
+
+    &-wrap {
+      max-width: 1100px;
+    }
+  }
+  &-group {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    &-btn {
+      margin-right: 20px;
+    }
+  }
+}
